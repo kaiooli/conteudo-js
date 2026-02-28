@@ -41,5 +41,31 @@ if (idade>= 18) {
     texto = 'Você tem idade para dirigir';
 }
 
+document.getElementById('idade').innerHTML = 'Sua Idade e:' + 'texto';
 document.getElementById('ex2').innerHTML = texto;
 
+
+//Exemplo if alinhado
+
+let idade2 = 18;
+let pais = 'Brasil';
+let msg = 'Você não pode dirigir'
+
+//if (pais == 'Brasil') {
+ //   console.log(idade2 >= 18);
+    //msg = 'Você pode dirigir' 
+//}
+
+//document.getElementById('ex3').innerHTML=msg;
+
+//Exemplo de if alinhado com operador AND (&&)
+
+let idade3 = 18;
+let pais2 = 'Brasil';
+let msg2 = 'Você não pode dirigir';
+
+if (pais2 == 'Brasil' && idade3 == '18') {
+   // msg = 'Você pode dirigir'
+}
+
+//document.getElementById('ex3').innerHTML= msg2;
